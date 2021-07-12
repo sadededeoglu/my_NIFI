@@ -22,9 +22,9 @@ https://www.youtube.com/watch?v=fuEosO24fgI&t=6s
 ![1_bxtD6sSg14J1ylqtgb_pbg](https://user-images.githubusercontent.com/58874305/125338526-2761e200-e305-11eb-87a7-c0f45d6978ee.png)
 nifi will ask us for interrogation. Since I know that there are Orders in my data, I write the query as select * from Orders.
 ![1_JfZ-x-HREf6UWhSCr0ZOCQ](https://user-images.githubusercontent.com/58874305/125338551-3052b380-e305-11eb-8829-61f93d00f262.png)
-![1_e-tJrol16AeaQ_4waSevuQ](https://user-images.githubusercontent.com/58874305/125338682-58daad80-e305-11eb-858b-4a4875c018fa.png)
 
-![1_GuwwVxltjWxSR2hNMqmjvQ](https://user-images.githubusercontent.com/58874305/125338710-609a5200-e305-11eb-89de-dc3353d4d5cd.png)
-
+1) ![1_e-tJrol16AeaQ_4waSevuQ](https://user-images.githubusercontent.com/58874305/125339256-fa61ff00-e305-11eb-84ce-d73a7ebc6271.png)
+When we click on it and select the enable box in the lower right corner, our data will now begin to come.
+2) ![1_GuwwVxltjWxSR2hNMqmjvQ](https://user-images.githubusercontent.com/58874305/125339289-0483fd80-e306-11eb-8899-c6621567e501.png)
 
 
