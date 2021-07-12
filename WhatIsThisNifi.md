@@ -32,6 +32,11 @@
 
 ![image](https://user-images.githubusercontent.com/58874305/125288802-65461280-e2d3-11eb-80f5-5e0544c0d9fa.png)
 
+# SETTING THE EXECUTE PROCESSOR
+
+![image](https://user-images.githubusercontent.com/58874305/125335531-83c30280-e301-11eb-9756-a8e891008da3.png)
+
+
 # SAMPLE DATA FLOW
 
 ![image](https://user-images.githubusercontent.com/58874305/125289196-d1287b00-e2d3-11eb-9a3c-8350af2708e9.png)
