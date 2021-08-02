@@ -21,3 +21,7 @@ Go to where the toolkit is installed.
 
 ![image](https://user-images.githubusercontent.com/58874305/127841354-57987ace-fd45-4e7c-8635-b996325605b4.png)
 
+7)Now we can run it. We can do whatever we want on the logs.
+
+![image](https://user-images.githubusercontent.com/58874305/127842288-0c23bacf-6730-4217-91dc-ec75b2052f0e.png)
+
