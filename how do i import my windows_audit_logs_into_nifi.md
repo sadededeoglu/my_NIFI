@@ -1,5 +1,6 @@
 1) run nifi as administrator!
-2) ConsumeWindowsEventLog, this processor knows where the audit logs in windows are and takes it from there. I chose to get system logs here. you can choose security logs if you want.
+
+3) ConsumeWindowsEventLog, this processor knows where the audit logs in windows are and takes it from there. I chose to get system logs here. you can choose security logs if you want.
 
 ![image](https://user-images.githubusercontent.com/58874305/127830231-6032be01-c113-43aa-b1b6-d38e15fbe3e8.png)
 
@@ -15,4 +16,8 @@
 
 ![image](https://user-images.githubusercontent.com/58874305/127832471-ad68a048-e53f-4480-86f0-99e4d8cbeced.png)
 
-we have to use minifi toolkit to use it this way.
+6)we have to use minifi toolkit to use it this way.this is because this template minifi is made into a config file that can be used.this template is saved.and cmd opens.
+Go to where the toolkit is installed.
+
+![image](https://user-images.githubusercontent.com/58874305/127841354-57987ace-fd45-4e7c-8635-b996325605b4.png)
+
