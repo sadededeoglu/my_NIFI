@@ -1,4 +1,14 @@
-1) run nifi as administrator!
+1) first one let's make the nifi and minifi connect. nifi/conf/nifi.properties file opens for this.the following operations are performed. The ip address must be the ip address where the nifi is running.
+
+# Site to Site properties
+nifi.remote.input.host=167.71.171.96
+nifi.remote.input.secure=false
+nifi.remote.input.socket.port=1234
+nifi.remote.input.http.enabled=true
+nifi.remote.input.http.transaction.ttl=30 sec
+nifi.remote.contents.cache.expiration=30 secs
+
+2) run nifi as administrator!
 
 3) ConsumeWindowsEventLog, this processor knows where the audit logs in windows are and takes it from there. I chose to get system logs here. you can choose security logs if you want.
 
