@@ -1,6 +1,6 @@
 # This explanation is from videos
 # step 1 
-⚠ For nifi installation, make sure you have the latest version of java installed on your computer. if not installed, download from here
+⚠ For nifi installation, make sure you have the latest version of java installed on your computer. if not installed, download from here. and it would throw an error if JAVA_HOME is not set.  you have to go to "edit the system environment variables" section and define.
 https://www.oracle.com/tr/java/technologies/javase-jdk11-downloads.html
 
 # step 2
