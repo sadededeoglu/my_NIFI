@@ -24,9 +24,15 @@ minifi is the agent that allows them to communicate with each other.
 
 ![image](https://user-images.githubusercontent.com/58874305/129355131-7dab8feb-6b49-426d-966f-eb6c412dc458.png)
 
+10)now we will start using minifi. We open cmd and go to the \minifi-toolkit-1.14.0\bin> directory.
 
+\minifi-toolkit-1.14.0\bin>.\config.bat transoform template_name.xml config.yml
 
+11) After doing this, we go back to nidi and add the input port we will send.
 
+![image](https://user-images.githubusercontent.com/58874305/129356475-58643411-a2a6-43ec-b606-382f21a08bb7.png)
+
+# now our data can be sent
 
 
 
