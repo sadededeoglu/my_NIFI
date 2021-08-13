@@ -20,6 +20,11 @@ minifi is the agent that allows them to communicate with each other.
 
 7)now we have to edit the nifi which will send the data. 
 8)After doing the steps 3-4-5, we add the ConsumeWindowsEventLog processor. (we will use nifi's ConsumeWindowsEventLog processor to get windows logs)
+9)Now we specify the port to send by adding a remote processor and we save this template.
+
+![image](https://user-images.githubusercontent.com/58874305/129355131-7dab8feb-6b49-426d-966f-eb6c412dc458.png)
+
+
 
 
 
