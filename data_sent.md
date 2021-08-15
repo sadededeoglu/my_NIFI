@@ -27,7 +27,7 @@ minifi is the agent that allows them to communicate with each other.
 
 \minifi-toolkit-1.14.0\bin>.\config.bat transoform template_name.xml config.yml
 
-11) After doing this, we go back to nidi and add the input port we will send.
+11) After doing this,We're starting the minifi and go back to nifi add the input port we will send.
 
 ![image](https://user-images.githubusercontent.com/58874305/129356475-58643411-a2a6-43ec-b606-382f21a08bb7.png)
 
