@@ -13,6 +13,10 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       """time, date , srcip, srcport, dstcountry, log type , transip , transport  """
       # üstünde çalıştıgım kısım
 
+      """*********************************************************************************************************************************"""
+
+      #firewall
+
       date_regex=re.search("\d{4}-\d+-\d+",logs) #forti ve sophos
       date_check=re.search("((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\W+(0[1-9]|[12]\d|3[01]))",logs)
       date_palo=re.search("\d{4}/\d{2}/\d{2}",logs)
@@ -117,3 +121,22 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       _check=re.search
       _sophos=re.search
       _palo=re.search
+
+       """*********************************************************************************************************************************"""
+
+      channel_win=re.search("(?<=Channel>)\w+",logs)
+      time_win=re.search("(([0-1][0-9])|([2][0-3])):([0-5][0-9]):([0-5][0-9])",logs)
+      date_win=re.search("([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))",logs)
+      guid_win=re.search("(?<=Guid\W+)\w+.\w+.\w+.\w+.\w+",logs)
+      eventRecordID_win=re.search("(?<=EventRecordID\W)\w+",logs)
+      level_win=re.search("(?<=Level\W)\w+",logs)
+      task_win=re.search("(?<=task\W)\w+",logs)
+      opcode_win=re.search("(?<=Opcode\W)\w+",logs)
+      Keywords_win=re.search("(?<=Keywords\W)\w+",logs)
+      ProcessID_win=re.search("(?<=ProcessID\W)\w+",logs)
+      Computer ???
+      
+
+      
+
+      
