@@ -137,6 +137,33 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       Computer ???
       
 
-      
 
-      
+       """*********************************************************************************************************************************"""
+      type_centos=re.search("(?<=type\W)\w+",logs)
+      arch_centos=re.search("(?<=arch\W)\w+",logs)
+      syscall_centos=re.search("(?<=syscall\W)\w+",logs)
+      succsess_centos=re.search("(?<=success\W)\w+",logs)
+      exit_centos=re.search("(?<=exit\W)\w+",logs)
+      a0_centos=re.search("(?<=a0\W+)\w+",logs)
+      a1_centos=re.search("(?<=a1\W+)\w+",logs)
+      a2_centos=re.search("(?<=a2\W+)\w+",logs)
+      a3_centos=re.search("(?<=a3\W+)\w+",logs)
+      items_centos=re.search("(?<=items\W+)\w+",logs)
+      ppid_centos=re.search("(?<=ppid\W+)\w+",logs) 
+      pid_centos=re.search("(?<=pid\W+)\w+",logs)
+      auid_centos=re.search("(?<=auid\W+)\w+",logs)
+      uid_centos=re.search("(?<=uid\W+)\w+",logs)
+      gid_centos=re.search("(?<=gid\W+)\w+",logs)
+      euid_centos=re.search("(?<=euid\W+)\w+",logs)
+      suid_centos=re.search("(?<=suid\W+)\w+",logs)
+      fsuid_centos=re.search("(?<=fsuid\W+)\w+",logs)
+      egid_centos=re.search("(?<=egid\W+)\w+",logs)
+      sgid_centos=re.search("(?<=sgid\W+)\w+",logs)
+      fsgid_centos=re.search("(?<=fsgid\W+)\w+",logs)
+      _centos=re.search
+      _centos=re.search
+      _centos=re.search
+      _centos=re.search
+      _centos=re.search
+      _centos=re.search
+      _centos=re.search
