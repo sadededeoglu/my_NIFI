@@ -13,7 +13,7 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       #firewall
       logid_forti=re.search("(?<=logid=\W+)\w+",logs)
       if logid_forti:
-        logid=("LogID="+srt(logid_forti))
+        logid=("LogID="+str(logid_forti))
         time_forti=re.search("(([0-1][0-9])|([2][0-3])):([0-5][0-9]):([0-5][0-9])",logs)
         date_forti=re.search("\d{4}-\d+-\d+",logs)
         srcip_forti=re.search("(?<=srcip=)(?:[0-9]{1,3}\.){3}[0-9]{1,3}",logs)
