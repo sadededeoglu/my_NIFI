@@ -67,10 +67,10 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       fpolicy_sophos=re.search("")
       fpolicy_palo=re.search("(?<=action=)\w+",logs)
 
-      NatSrcIp_forti=re.search("(?<=transip=)(?:[0-9]{1,3}\.){3}[0-9]{1,3}"logs)  
-      NatSrcIp_check=re.search("")
-      NatSrcIp_sophos=re.search("")
-      NatSrcIp_palo=re.search("(?<=srcPostNATPort=)\w+",logs)
+      natSrcIp_forti=re.search("(?<=transip=)(?:[0-9]{1,3}\.){3}[0-9]{1,3}"logs)  
+      natSrcIp_check=re.search("")
+      natSrcIp_sophos=re.search("")
+      natSrcIp_palo=re.search("(?<=srcPostNATPort=)\w+",logs)
 
       sentbyte_forti=re.search("(?<=sentbyte=)\w+",logs)
       sentbyte_check=re.search("")
@@ -127,11 +127,9 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       level_win=re.search("(?<=Level\W)\w+",logs)
       task_win=re.search("(?<=task\W)\w+",logs)
       opcode_win=re.search("(?<=Opcode\W)\w+",logs)
-      Keywords_win=re.search("(?<=Keywords\W)\w+",logs)
-      ProcessID_win=re.search("(?<=ProcessID\W)\w+",logs)
-      Computer ???
-      
-
+      keywords_win=re.search("(?<=Keywords\W)\w+",logs)
+      processID_win=re.search("(?<=ProcessID\W)\w+",logs)
+   
 
        """*********************************************************************************************************************************"""
       type_centos=re.search("(?<=type\W)\w+",logs)
@@ -189,27 +187,5 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       postgresql=re.search
       elastıcsql=re.search
 
-      mssql=re.search
-      mysql=re.search
-      postgresql=re.search
-      elastıcsql=re.search
+ 
 
-      mssql=re.search
-      mysql=re.search
-      postgresql=re.search
-      elastıcsql=re.search
-
-      mssql=re.search
-      mysql=re.search
-      postgresql=re.search
-      elastıcsql=re.search
-
-      mssql=re.search
-      mysql=re.search
-      postgresql=re.search
-      elastıcsql=re.search
-
-      mssql=re.search
-      mysql=re.search
-      postgresql=re.search
-      elastıcsql=re.search
