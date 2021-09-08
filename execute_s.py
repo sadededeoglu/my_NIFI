@@ -9,19 +9,14 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
   def __init__(self):
   def flow(self, input, output):
 
-      logs=IOUtils.toString(input, StandardCharsets.UTF_8) #loglarımı alıyorum. değişik karakterliler sorun cıkarmasın diey utf ekliyorum
-      """time, date , srcip, srcport, dstcountry, log type , transip , transport  """
-      # üstünde çalıştıgım kısım
-
-      """*********************************************************************************************************************************"""
-
+      logs=IOUtils.toString(input, StandardCharsets.UTF_8): #loglarımı alıyorum. değişik karakterliler sorun cıkarmasın diey utf ekliyorum
       #firewall
-
       date_regex=re.search("\d{4}-\d+-\d+",logs) #forti ve sophos
+      date=("Date="+date_regex)
       date_check=re.search("((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\W+(0[1-9]|[12]\d|3[01]))",logs)
       date_palo=re.search("\d{4}/\d{2}/\d{2}",logs)
       logid_forti=re.search("(?<=logid=\W+)\w+",logs)
-      logid_check=re.search("")
+      logid_check=re.search("-")
       logid_sophos=re.search("(?<=log_id=)\w+",logs)
       logid_palo=re.search("(?<=SerialNumber=)\w+",logs)
 
@@ -160,10 +155,61 @@ class inputSC(StreamCallback): #fonksiyonlarımı buranın içinde kullanacağim
       egid_centos=re.search("(?<=egid\W+)\w+",logs)
       sgid_centos=re.search("(?<=sgid\W+)\w+",logs)
       fsgid_centos=re.search("(?<=fsgid\W+)\w+",logs)
-      _centos=re.search
-      _centos=re.search
-      _centos=re.search
-      _centos=re.search
-      _centos=re.search
-      _centos=re.search
-      _centos=re.search
+      tty_centos=re.search("(?<=tty\W+)\w+",logs)
+      ses_centos=re.search("(?<=ses\W+)\w+",logs)
+      comm_centos=re.search("(?<=comm\W+)\w+",logs)
+      exe_centos=re.search("(?<=exe\W+)\S+")
+      _centos=re.search("(?<=subj\W+)\S+")
+      _centos=re.search("(?<=key\W+)\w+")
+
+
+ """*********************************************************************************************************************************"""
+
+      time_ms-mysql=re.search("(([0-1][0-9])|([2][0-3])):([0-5][0-9]):([0-5][0-9])",logs)
+      time_postgresql=re.search
+      time_elastıcsql=re.search
+
+      date_mssql=re.search("([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))",logs)
+      date_mysql=re.search("(?<=TIMESTAMP\W+)([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))",logs)
+      date_postgresql=re.search
+      date_elastıcsql=re.search
+
+      client_ip_mssql=re.search("(?<=client_ip\W+)(?:[0-9]{1,3}\.){3}[0-9]{1,3}",logs)
+      client_ip_mysql=re.search("(?<=IP\W+)(?:[0-9]{1,3}\.){3}[0-9]{1,3}",logs)
+      client_ip_postgresql=re.search
+      client_ip_elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
+
+      mssql=re.search
+      mysql=re.search
+      postgresql=re.search
+      elastıcsql=re.search
